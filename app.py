@@ -11,7 +11,7 @@ import path_utils
 
 # Page Configuration
 st.set_page_config(
-    page_title="ReliabilityPulse | AI-Driven Maintenance", 
+    page_title="MachineFailureModel | AI Driven Machine Failure Forecasting", 
     layout="wide", 
     page_icon="⚡", 
     initial_sidebar_state="expanded"
@@ -138,8 +138,8 @@ with st.sidebar:
         input_tool_wear = st.slider("Duration [min]", 0, 250, 100)
 
 # MAIN: ReliabilityPulse
-st.title("⚡ ReliabilityPulse")
-st.markdown("### Industrial Reliability Forecasting & Maintenance Hub")
+st.title("Machine Failure Prediction")
+st.markdown("### Industrial Machine Reliability Forecasting & Maintenance Hub")
 
 # Tabs
 tab_predict, tab_viz, tab_about = st.tabs([
@@ -252,7 +252,7 @@ with tab_viz:
 with tab_about:
     st.header("🏭 Project Overview & Roadmap")
     st.markdown("""
-    **ReliabilityPulse** is an industrial-grade intelligence suite designed to protect manufacturing revenue. 
+    **Machine Failure Model** is an industrial-grade intelligence suite designed to protect manufacturing revenue. 
     By forecasting failures **24-72 hours** in advance, it transforms reactive maintenance into a proactive strategy.
     
     ### 🎯 Tech Stack:
@@ -269,4 +269,4 @@ with tab_about:
 
 # Footer
 st.markdown("---")
-st.write(f"Built by **Divyanshi Singh** | [LinkedIn](https://www.linkedin.com/in/divyanshi-singh-/) | [GitHub](https://github.com/Divyanshi018572)")
+st.write(f"Built by **Nidhi Matkar** | TY BSC | R A Podar College of college of commerce & economics")
